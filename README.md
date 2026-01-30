@@ -1,6 +1,5 @@
 # Orthopedics Service Line Budget & Performance Model (HOPD)
 FY2026 Budget vs FY2025 Actual | Margin, Capacity, Break-Even, Productivity & Payor Mix  
-Prepared by Abdulrahman Alali (MHA | MS Finance)
 
 ## Executive Summary
 
