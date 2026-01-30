@@ -9,23 +9,16 @@ The FY2026 budget projects total net revenue of $54.4M, up 1.4% versus FY2025 ac
 
 ![FY2026 Budget vs FY2025 Actual](01_budget_summary.png)
 
-Operationally, the budget also carries an important warning: the plan requires more OR time than the assumed capacity. Total OR hours required (4,923) exceed available OR hours (4,500), implying utilization of 109% and a shortfall of 423 hours per year. In other words, the service line is budgeting growth in cases without fully budgeting the operational capacity required to deliver that growth under the current assumptions (case time + turnover). This gap is the kind of issue that usually shows up later as overtime, delays, staffing stress, or lost volume—so surfacing it in the budget stage is one of the main reasons this model exists.
+Operationally, the budget also carries an important warning: the plan requires more OR time than the assumed capacity. Total OR hours required (4,923) exceed available OR hours (4,750), implying utilization of 104% and a shortfall of 173 hours per year. In other words, the service line is budgeting growth in cases without fully budgeting the operational capacity required to deliver that growth under the current assumptions (case time + turnover). This gap is the kind of issue that usually shows up later as overtime, delays, staffing stress, or lost volume—so surfacing it in the budget stage is one of the main reasons this model exists.
 
-Finally, the procedure-level margin view shows that profitability is concentrated and uneven once costs and facility allocation assumptions are applied. Some procedures generate large positive contribution after allocation, while others become meaningfully negative. This matters because the OR is constrained: when capacity is tight, “what you fill the room with” becomes a financial decision as much as a scheduling decision.
+Finally, the procedure-level margin view shows that profitability is concentrated and uneven once costs and facility allocation assumptions are applied. Some procedures generate large positive contribution after allocation, while others become meaningfully negative.
 
-## What the Model Includes (and why it matters)
+## What the Model Includes
 
-The model starts with a traditional budget summary—volumes, revenue, expenses, and margin—then breaks the service line into the pieces that actually drive those totals.
+This is a driver-based Orthopedics HOPD budget model that connects volume, payor mix (yield, net-to-gross), costs, and capacity to explain the service line’s margin. It includes procedure-level margins, OR/clinic capacity requirements, break-even risk, and workforce productivity KPIs.
 
-A procedure margin module calculates net revenue per case and per-procedure contribution margin by explicitly modeling variable cost components such as implants, supplies, and purchased services. It then applies facility allocation assumptions to produce a fully loaded margin view. This is not meant to be a perfect cost accounting system; it is meant to be a practical way to compare procedures consistently using the same logic, so that discussions about growth, OR block allocation, and cost reduction can be grounded in numbers.
 
-The capacity module translates the same case volumes into OR minutes, adds turnover time, and converts that into total OR hours required. This connects the financial plan to the operational reality: if the OR is already over 100% utilized on paper, then the margin you budgeted may not be achievable without operational improvement or additional capacity. The clinic side is also included to show whether physician/APP clinic sessions and visit targets can support the planned volume.
 
-The break-even module separates variable costs from fixed costs and calculates the revenue level where the service line breaks even. This allows the budget to be evaluated as a risk position. If volume falls, if payor yield softens, or if supply costs inflate further, the model can show how much downside the budget can tolerate before profitability disappears.
-
-The productivity module translates volume into output per FTE (cases per surgeon, visits per provider, OR hours per surgeon) and connects staffing to financial productivity (net revenue per surgeon FTE, NOI per surgeon FTE). This makes it easier to discuss performance in the same language used by finance and operations leadership.
-
-The payor mix and yield module treats net-to-gross as a first-class assumption rather than an afterthought. It calculates the blended net-to-gross based on mix and payor-specific yield, then uses that to translate gross charges into net revenue. This makes it straightforward to run “yield scenarios” and understand how sensitive the service line is to contract performance, denials, and documentation/coding quality.
 
 ## Findings and Interpretation (FY2026 vs FY2025)
 
@@ -39,15 +32,15 @@ Quarterly phasing shows the service line is not evenly profitable throughout the
 
 ![Quarterly Revenue & Net Income Margin](02_quarterly_trend.png)
 
-## Capacity (the plan has to fit in the system)
+## Capacity
 
-The most actionable insight from the operational side is that the FY2026 plan, as modeled, does not fit inside the assumed OR capacity. Required OR hours are 4,923 versus available 4,500, meaning the plan is short by 423 hours per year. That is roughly 8.5 OR hours per week, which is effectively another full OR day every week depending on how blocks are structured.
+The most actionable insight from the operational side is that the FY2026 plan, as modeled, does not fit inside the assumed OR capacity. Required OR hours are 4,923 versus available 4,4750, meaning the plan is short by 173 hours per year.
 
-This is where budgets often fail in the real world: the finance plan assumes growth, but the operational plan assumes status quo throughput. If you don’t reconcile these two, the “gap” shows up later as overtime, staffing tension, delayed cases, and lower patient access. The model forces that reconciliation early. It also makes it clear that throughput improvement is not cosmetic—it is financial. Even modest reductions in turnover minutes per case can reclaim hundreds of hours per year at this scale, which can be the difference between meeting the plan versus missing it.
+The budget and the OR plan need to agree. If volume grows but throughput doesn’t, the system absorbs it through delays and extra cost. This model makes that visible early and shows how modest turnover improvement can add back OR hours.
 
-![OR Capacity](03_OR_capacity.png)
+![OR Capacity](03_or_capacity.png)
 
-On the clinic side, the model shows the system is not constrained. Planned clinic visits (22,000) sit below estimated clinic capacity (23,520), implying 94% utilization. That means the immediate bottleneck isn’t clinic capacity; it’s OR throughput and cost per case. It also means there is room to stabilize overall performance by protecting/expanding clinic access without adding new provider capacity immediately, depending on session structure and operational realities.
+On the clinic side, the model shows available headroom: 22,000 planned visits versus 23,520 capacity (~94% utilization). The upside is flexibility to see urgent patients sooner and absorb demand spikes without adding providers right away, depending on session templates.
 
 ![Clinic Capacity](04_clinic_capacity.png)
 
@@ -55,7 +48,7 @@ On the clinic side, the model shows the system is not constrained. Planned clini
 
 The break-even module reframes the budget as a risk position by separating variable costs from fixed costs. With total variable costs around $42.0M and fixed costs around $10.7M, the service line’s contribution margin ratio is roughly 22.8%. The implied break-even net revenue is ~$46.8M versus the FY2026 plan of $54.4M, which provides cushion, but not immunity.
 
-This matters because orthopedics is highly sensitive to yield and supply cost inflation. A relatively small deterioration in reimbursement realization (net-to-gross) or a continued supply increase can erase operating income quickly. For that reason, break-even is not just a finance output—it is a practical way to decide what risks need active monitoring during the year.
+This matters because orthopedics is highly sensitive to yield and supply cost inflation. A relatively small deterioration in reimbursement realization (net-to-gross) or a continued supply increase can erase operating income quickly.
 
 ![Break-Even Analysis](05_break_even.png)
 
@@ -69,7 +62,7 @@ Because the OR is already modeled above 100% utilization, the most important tak
 
 ## Payor Mix & Yield
 
-The payor mix and yield module makes reimbursement realization explicit. Surgical economics are heavily driven by yield assumptions: gross charges are translated into net revenue using payor mix and payor-specific net-to-gross. In this model, the blended surgical net-to-gross is 31.7%, with private insurance representing the majority of the mix. The point of showing this in the model is sensitivity: when gross charges are large, small changes in realization move net revenue by meaningful amounts relative to NOI.
+The payor mix and yield module makes reimbursement realization explicit. Surgical economics are heavily driven by yield assumptions: gross charges are translated into net revenue using payor mix and payor-specific net-to-gross. In this model, the blended surgical net-to-gross is 31.7%, with private insurance representing the majority of the mix.
 
 This is why “yield” belongs next to “volume” in any orthopedics performance discussion. Improving documentation/coding, reducing denials, ensuring clean charge capture, and actively managing contract terms can be worth more than incremental volume when OR capacity is already tight.
 
@@ -77,17 +70,17 @@ This is why “yield” belongs next to “volume” in any orthopedics performa
 
 ## Recommendations (what I would do with this budget)
 
-The FY2026 plan is achievable on paper, but the model highlights two issues that will likely prevent the service line from actually delivering the budget as written: (1) the OR is modeled above capacity, and (2) margin compression is being driven by supply/implant economics. If leadership wants the same case growth with stable profitability, the operational and cost levers need to move at the same time.
+The FY2026 plan is achievable, but the model still flags two things that will determine whether the service line actually delivers the budget in real life: OR throughput and supply/implant economics. They are much more manageable—so the operational fix can be tighter and more practical.
 
-First, the OR capacity gap should be treated as a real operational risk, not a rounding issue. The model shows 4,923 OR hours required versus 4,500 available (109% utilization), leaving a shortfall of 423 hours per year. If nothing changes, that gap will show up as overtime, delayed cases, staffing friction, or lost volume. The most practical “budget-friendly” fix is throughput—specifically turnover and downtime between cases—because it creates capacity without adding fixed cost. Even small improvements at scale can be meaningful when you have 3,455 cases. This is the one area where an operational initiative can directly protect financial performance in-year.
+First, the OR capacity gap should be handled proactively because it’s the kind of issue that turns into overtime, delays, and access problems if it’s ignored. The model shows 4,923 OR hours required versus 4,750 available, which implies 104% utilization and a shortfall of 173 hours per year (about 3.3 hours per week). It is a clear signal that the plan assumes “near-perfect” flow. The lowest-cost way to close this gap is throughput improvement—especially reducing turnover and idle time—because a small gain at this scale covers the entire deficit. For example, cutting average turnover by just 5 minutes across 3,455 cases frees roughly 288 OR hours per year, which more than offsets the current 173-hour shortfall. If the service line wants to protect access and avoid hidden labor costs, this is the cleanest operational move.
 
-Second, supplies are the biggest margin problem in this budget. Total net revenue rises by $0.78M, but medical supplies rise by $1.04M (+10.9%), which is large enough to offset most of the growth and drive NOI down. That should trigger a focused implant/supply strategy, especially in arthroplasty where the dollars are concentrated (TKR/THR implant costs are a major part of the variable cost structure). The goal is not simply “spend less,” but to reduce unit cost per case through standardization, vendor contracting discipline, and tighter preference card management. If supplies keep inflating faster than revenue, the service line will keep working harder for less margin.
+Second, supplies are still the main financial pressure in FY2026. Total revenue grows modestly, but medical supplies are rising much faster than the service line’s revenue growth, which is why NOI declines even with higher surgical volume. The response here should be focused and measurable: implant standardization (especially in arthroplasty), vendor contracting discipline, and preference card optimization. The purpose is to stabilize unit cost per case so that volume growth doesn’t automatically dilute margin.
 
-Third, the procedure-level view suggests that some OR time is being consumed by low or negative fully-loaded contribution after facility allocation assumptions. That does not mean those cases should be avoided—some categories are urgent and must be done—but it does mean the service line should know which procedures are financially fragile and then attack the reasons: charge capture and coding accuracy, denials, implant pricing, and inpatient/facility cost drivers (especially for cases that tend to trigger longer stays or higher overhead allocation). When OR time is constrained, improving the economics of the weakest categories is often as important as growing the strongest categories.
+Third, when OR capacity is tight—even at 104%—the service line can’t treat all OR time as equal. Some categories generate strong margin per OR hour, while others become financially fragile once facility costs are applied. This doesn’t mean avoiding urgent or clinically necessary cases; it means identifying where margins are weak and fixing the drivers: charge capture/coding, denials, implant pricing, standard supply utilization, and care pathway efficiency (especially where inpatient utilization increases cost allocations). In a constrained OR environment, improving the economics of weak categories can be just as valuable as growing the strong categories.
 
-Fourth, yield (net-to-gross) should be treated as a top sensitivity KPI for orthopedics. Surgical gross charges are large relative to NOI, which means small yield changes can swing the entire bottom line. The model’s payor mix section is not just descriptive—it should drive a monitoring plan during the year: denial rates, documentation completeness, contract performance by payor, and variance between expected and realized net revenue. If the service line is already capacity constrained, protecting yield can be more impactful than chasing incremental volume.
 
-Finally, the quarterly pattern (Q1 negative margin, Q3 strong margin, Q4 near break-even) is a practical planning signal. If fixed costs are steady, then uneven case phasing and utilization can create avoidable earnings volatility. Block scheduling, clinic access protection, and elective case timing (where clinically appropriate) should be used to reduce “weak quarters.” This doesn’t change annual volume, but it can materially improve predictability and reduce operational stress.
+Finally, I would use the quarterly pattern as a planning tool. The service line’s profitability is uneven across the year, and fixed cost does not flex down in weaker quarters. Aligning block schedules, staffing patterns, and elective case timing (where clinically appropriate) to smooth utilization can reduce avoidable volatility and make performance more predictable.
 
-In short: close the OR capacity gap through throughput, stabilize margin through supply/implant unit cost control, fix weak procedure economics through revenue integrity and cost drivers, and manage payor yield as a core lever. Those steps directly address the specific pressures and constraints shown in the FY2026 model outputs.
+In short: the OR is slightly over capacity, but the gap is small enough that a realistic throughput initiative can close it; the bigger financial priority is controlling supply/implant unit cost; and the best way to manage risk is to actively monitor yield and focus improvement efforts on the weakest procedure economics.
+
 
